@@ -12,7 +12,7 @@ int main(void)
 	do {
 		putchar(alphabet);
 		alphabet++;
-	} while (alphabet <= 'z');
+	} while (alphabet <= 'Z');
 
 
 	return (0);
