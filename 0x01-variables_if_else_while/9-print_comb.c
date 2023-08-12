@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (no errors)
  */
-int main(void);
+int main(void)
 {
 	int i = 0;
 
