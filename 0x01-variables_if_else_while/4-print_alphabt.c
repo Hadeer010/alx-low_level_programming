@@ -10,10 +10,11 @@ int main(void)
 	char lower;
 
 lower = 'a';
-if (lower != 'q' || lower != 'e')
-{
 while (lower <= 'z')
 {
+if (lower != 'q' || lower != 'e')
+{
+
 putchar(lower);
 lower++;
 }
