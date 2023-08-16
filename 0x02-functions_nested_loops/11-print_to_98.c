@@ -20,6 +20,6 @@ void print_to_98(int n)
 		{
 			_putchar(c);
 		}
-		_putchar(98 + '0');
+		printf("98\n");
 	}
 }
