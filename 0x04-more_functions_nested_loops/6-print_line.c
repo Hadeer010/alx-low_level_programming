@@ -1,9 +1,20 @@
 #include "main.h"
 /**
  * print_line - a function that draws a straight line in the terminal.
- * @n: input
- * Return1 if successful and a new line if not 
+ * @n: inputi
+ * Return1 if successful and a new line if not
  */
 void print_line(int n)
 {
+	int i;
+
+	if (n > 0)
+	{
+		for (i = n; i < 0; i--)
+		{
+			_putchar('_');
+			-putchar('\n');
+		}
+	}
+		_putchar('\n');
 }
