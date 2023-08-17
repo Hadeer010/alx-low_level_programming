@@ -20,9 +20,9 @@ void print_diagonal(int n)
 			{
 				if (p == s)
 				{
-					_putchar(92);
+					_putchar('\\');
 				}
-				else if (p < s)
+				else if (s < p)
 				{
 					_putchar(' ');
 				}
