@@ -1,17 +1,21 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * puts_half - prints half of a string, followed by a new line
- * @str: input
- * Return: lengt
+ * puts_half - print second half of a string
+ * @str: chat array string type
+ * Description: If odd number of chars, print (length -1) / 2
  */
+
 void puts_half(char *str)
 {
-	int x = 0;
-
-	while (*str != '\0')
-	{
-		x++;
-		str++;
-	}
-	return (x);
+int i;
+for (i = 0; str[i] != '\0'; i++)
+{
+i++;
+}
+for (i /= 2; str[i] != '\0'; i++)
+{
+_putchar(str[i]);
+}
+_putchar('\n')i;
 }
