@@ -13,6 +13,6 @@ void reverse_array(int *a, int n)
 	{
 		z = a[x];
 		a[x] = a[y];
-		a[z] = t;
+		a[y] = z;
 	}
 }

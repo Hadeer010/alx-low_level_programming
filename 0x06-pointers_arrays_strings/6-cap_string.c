@@ -14,7 +14,7 @@ char *cap_string(char *str)
 		{
 			limit++;
 		}
-		if (str[limit - 1] == '' ||
+		if (str[limit - 1] == ' ' ||
 		str[limit - 1] == '\t' ||
 		str[limit - 1] == ';' ||
 		str[limit - 1] == '\n' ||

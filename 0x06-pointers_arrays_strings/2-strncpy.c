@@ -6,7 +6,7 @@
  * @n: number of bytes from src
  * Return: dest value
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	int y;
 
@@ -17,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n);
 	while (y < n)
 	{
 		dest[y] = '\0';
-		y++
+		y++;
 	}
 	return (dest);
 }
