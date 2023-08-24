@@ -7,7 +7,7 @@
 char *leet(char *f)
 {
 	char *cl = f;
-	char k[] = {'A'. 'E', 'O', 'T', 'L'};
+	char k[] = {'A', 'E', 'O', 'T', 'L'};
 	int v[] = {4, 3, 0, 7, 1};
 	unsigned int x;
 
