@@ -26,7 +26,7 @@ char *_strcopy(char *dest, char *src)
 
 	for (x = 0; src[x]; x++)
 	{
-		dest[x] = src[x]
+		dest[x] = src[x];
 	}
 	dest[x] = '\0';
 	return (dest);
