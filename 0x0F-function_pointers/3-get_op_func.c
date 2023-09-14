@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * get_op_func – returns pointer to right function
+ * get_op_func - eturns pointer to right function
  * @s: string operator
  * Return: the reight func
  */
