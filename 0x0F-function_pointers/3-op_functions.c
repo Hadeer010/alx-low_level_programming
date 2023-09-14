@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * op_add – add intergers
+ * op_add - add intergers
  * @a: first int
  * @b: second int
  * Return: sum
@@ -11,7 +11,7 @@ return (a + b);
 }
 
 /**
- * op_sub – sub intergers
+ * op_sub - sub intergers
  * @a: first int
  * @b: second int
  * Return: difference
@@ -22,18 +22,18 @@ return (a - b);
 }
 
 /**
- * op_mul – mul intergers
+ * op_mul - mul intergers
  * @a: first int
  * @b: second int
  * Return: mul
  */
-int op_ mul(int a, int b)
+int op_mul(int a, int b)
 {
 return (a * b);
 }
 
 /**
- * op_div – div intergers
+ * op_div - div intergers
  * @a: first int
  * @b: second int
  * Return: div
@@ -46,7 +46,7 @@ return (a / b);
 
 
 /**
- * op_div – mod intergers
+ * op_mod - mod intergers
  * @a: first int
  * @b: second int
  * Return: mod
