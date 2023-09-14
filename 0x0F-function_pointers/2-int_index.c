@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * int_index – search for integer
+ * int_index - search for integer
  * @array: the int arry
  * @size: the array size
  * @cmp: function of compare
@@ -11,13 +11,14 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int x = 0;
+
 	if (array && size && cmp)
 	{
 		while (x < size)
 		{
 			if (cmp(array[x]))
 			{
-				return(x);
+				return (x);
 			}
 			x++;
 		}
